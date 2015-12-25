@@ -1,4 +1,4 @@
-error("The LuaJIT FS interface (without LFS) is not complete.")
+error("NYI: LuaJIT FS Interface")
 
 local getcwd
 do
