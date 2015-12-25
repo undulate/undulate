@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# totally untested
+
+ORIGINAL="$(dirname)"
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+
+lua cli/und.lua "$ORIGINAL" "$@"

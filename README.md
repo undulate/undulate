@@ -7,23 +7,11 @@ The package manager of the future.
 - 'undule' - A package
 
 ## Requirements
-Undulate is going to be a large undertaking. The following requirements exist:
-- Local dependencies
-- Extensible build interface
-- Lua 5.1, 5.2, 5.3, LuaJIT compatibility
-- Expandable repository
-- Support for Lua frontends like MoonScript and Callisto
-- SemVer compatibility
+To run the Undulate command line, your system needs the following:
+- Lua 5.1+
+- [LuaFileSystem](https://keplerproject.github.io/luafilesystem/)
 
-For bonus points:
-- Use existing luarocks as a legacy system
-
-Because of this, the following modules are going to come into existence:
-- Package format manager
-- Build interface
-- Command line frontend
-- Lua API
-- Repository server
+The Undulate module runtime supports Lua 5.1, 5.2, 5.3, and LuaJIT.
 
 ## Sample Usage
 
@@ -110,3 +98,9 @@ The `init` command creates this directory, a small loader utility (`undulate.lua
 	}
 }
 ```
+
+## License
+Undulate is governed by the terms of the MIT license, with more details in [LICENSE.md](LICENSE.md).
+
+The Undulate Developers include the following persons:
+- Lucien Greathouse <me@lpghatguy.com>
