@@ -1,6 +1,8 @@
 # undulate
 The package manager of the future.
 
+**Undulate is in development and is presently not functional. Stay tuned!**
+
 ## Terms
 - 'undulate' - The package manager
 - 'und' - The base command
