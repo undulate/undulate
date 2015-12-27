@@ -76,6 +76,14 @@ function readFile(path) {
 	})
 }
 
+function mkdir(path) {
+	return new Promise((resolve, reject) => {
+		fs.mkdir(path, (err) => {
+			resolve();
+		});
+	});
+}
+
 console.log("target:", target);
 
 let leaf = path.parse(target).base;
@@ -101,6 +109,9 @@ queryFields([
 			.then(body => {
 				return writeFile(path.resolve(target, "undulate.lua"), body);
 			});
+	})
+	.then(() => {
+		return mkdir(path.resolve(target, "undules"));
 	})
 	.then(() => {
 		console.log("DONE!");
