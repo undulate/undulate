@@ -1,12 +1,7 @@
 {
-	"name": "undulate",
-	"description": "A Lua project package manager for the criminally sane.",
-	"version": "0.1.0",
-	"license": "MIT",
-	"repository": "https://github.com/undulate/undulate",
-	"platforms": {
-		"luajit": ">=2.0"
-	},
-	"dependencies": {
-	}
+  "name": "undulate",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {}
 }
